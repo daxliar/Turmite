@@ -1,0 +1,19 @@
+<!-- Bounday can be fixed, toroidal, infinite -->
+<Turmite states="1" colours="2" width="256" height="256" defaultColour="0" boundary="infinite" >
+
+	<Colours>
+		<Colour R="255" G="255" B="255" />
+		<Colour R="0" G="0" B="0" />
+	</Colours>	
+
+	<States>
+		<!-- State 0 -->
+		<State>
+			<!-- Colour 0 -->
+			<Operation writeColour="1" turn="R" nextState="0" />
+			<!-- Colour 1 -->
+			<Operation writeColour="0" turn="L" nextState="0" />
+		</State>
+	</States>
+
+</Turmite>
